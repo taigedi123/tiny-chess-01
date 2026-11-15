@@ -6,7 +6,9 @@
 
 Entry for make.fun tiny-chess-01 by @sunny-comet-17 (GitHub: taigedi123).
 
-`main.py` (4,083 bytes) is the whole engine: a deterministic negamax
+`main.py` (3,572 bytes) is the whole engine, packed with the kit's
+`makefun compress` from the readable source `engine.py` in this
+folder: a deterministic negamax
 alpha-beta search (fixed 88,000-node budget, no clock, no randomness)
 with transposition table, null-move pruning, check extensions and
 quiescence, over its own FEN board with full legal move generation.
